@@ -16,12 +16,21 @@ import React from "react";
 
 class Mycomp extends React.Component{
     state={
-        rollno:230,
+        number1:0,
+        number2:50,
     };
     render=()=>{
         return(
             <div>
-            <h>my roll number is {this.state.rollno}</h>
+            <button onClick={()=>{
+                this.setState({number1:this.state.number1+1})
+            }}>increment</button>
+            <h1>{this.state.number1}</h1>
+
+            <button onClick={()=>{
+                this.setState({number2:this.state.number2-1})
+            }}>decrement</button>
+            <h2>{this.state.number2}</h2>
             </div>
         );
     };
