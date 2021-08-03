@@ -17,7 +17,6 @@ import React from "react";
 class Mycomp extends React.Component{
     state={
         number1:0,
-        number2:50,
     };
     render=()=>{
         return(
@@ -28,9 +27,9 @@ class Mycomp extends React.Component{
             <h1>{this.state.number1}</h1>
 
             <button onClick={()=>{
-                this.setState({number2:this.state.number2-1})
+                this.setState({number1:this.state.number1-1})
             }}>decrement</button>
-            <h2>{this.state.number2}</h2>
+            
             </div>
         );
     };

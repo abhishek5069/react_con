@@ -12,9 +12,13 @@ ReactDOM.render(
                 //<App />, // ek component
                 <div>
                  <Mycomp />
+                 <hr />
                  <Mycomp />
+                 <hr />
                  <Mycomp />
+                 <hr />
                  <Mycomp />
+                 <hr />
                  <Mycomp />
                 </div>,
                  document.querySelector("#root") // aur ek jagah jha us component ko dikhana hai
