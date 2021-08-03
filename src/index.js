@@ -6,8 +6,10 @@ import ReactDOM from "react-dom"; // render logic
 
 //App is a component we have imported
 import App from "./App";
+import Mycomp from "./Mycomp"
 
 ReactDOM.render(
-                <App />, // ek component
+                //<App />, // ek component
+                <Mycomp />,
                  document.querySelector("#root") // aur ek jagah jha us component ko dikhana hai
                  );
